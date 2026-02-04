@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awosome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+     <!-- font links -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN+Guides&family=Playwrite+NZ+Basic+Guides&display=swap" rel="stylesheet">
+      <!-- animate style cdn link -->
+       <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- AOS Animation cdn link-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- navbar -->
+         <nav>
+            <!-- logo -->
+             <img class="logo" src="./images/logo.jpg" alt="logo">
+             <!-- link -->
+              <ul>
+                <li class="list-items"><a class="links"  href="#home">Home</a></li>
+                <li class="list-items"><a class="links"  href="#about">About</a></li>
+                <li class="list-items"><a class="links"  href="#skill">Skill</a></li>
+                <li class="list-items"><a class="links"  href="#contact">Contact</a></li>
+              </ul>
+         </nav>
+         <!-- home -->
+          <section id="home">
+            <div class="home-content">
+                <!--  class name used to animate style  -->
+                <h1 class="animate__animated animate__heartBeat" id="username">I'm Ana <span id="lname">Steel</span> </h1>
+                <p id="user-details">This is my official portfolio usebsite to decsribe Details 
+                   <br> and work experience in Web Development</p>
+                <a id="download" href="">DOWNLOAD CV</a>
+            </div>
+            <div class="home-img">
+                <img id="shape" class="group1" src="./images/shape.png" alt="shape">
+                <img id="girl" class="group1" src="./images/girl.png" alt="girl">
+            </div>
+          </section>
+          <!-- about -->
+           <section id="about">
+            <div class="section-head">
+                <h2 class="main-head">About Me</h2>
+                <span class="sub-head">introduction</span>
+            </div>
+            <div class="about-body">
+                <!-- Aos animation -->
+                <div data-aos="fade-right" class="about-img">
+                    <img class="img1" src="./images/about me.png" alt="about me">
+                </div>
+                <div class="about-content">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel dolore qui, sit provident quae porro libero a, modi, incidunt ab ea fuga accusamus corporis aliquam. Ipsam eaque sed itaque!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero maiores, id laudantium enim incidunt dolorum aliquam. Neque consectetur repellendus a culpa quo. Quo aspernatur enim, at ipsam qui facere eum?
+                    </p>
+                    <div class="informations">
+                        <div class="info-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Ana Steel</span>
+
+                        
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9087654321</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>ana@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+            </div>
+           </section>
+           <!-- skill -->
+            <section id="skill">
+                <div class="section-head">
+                    <h1 class="main-head">Skills</h1>
+                    <span class="sub-head">My Skill</span>
+
+                </div>
+                <div class="skill-contents">
+                    <!-- Aos animation -->
+                    <div data-aos="fade-up"
+     data-aos-duration="3000" class="progress-bar">
+                        <!-- html bar -->
+                         <div class="bars">
+                            <h3 class="bar-head">HTML</h3>
+                            <span class="bar-percentage">89%</span>
+                            <div class="base-bar"></div>
+                            <div class="base-bar html-bar"></div>
+                         </div>
+<!-- CSS BAR -->
+                          <div class="bars">
+                            <h3 class="bar-head">CSS</h3>
+                            <span class="bar-percentage">82%</span>
+                            <div class="base-bar"></div>
+                            <div class="base-bar css-bar"></div>
+                         </div>
+<!-- JS BAR -->
+                          <div class="bars">
+                            <h3 class="bar-head">JS</h3>
+                            <span class="bar-percentage">79%</span>
+                            <div class="base-bar"></div>
+                            <div class="base-bar js-bar"></div>
+                         </div>
+<!-- REACT BAR -->
+                          <div class="bars">
+                            <h3 class="bar-head">REACT</h3>
+                            <span class="bar-percentage">90%</span>
+                            <div class="base-bar"></div>
+                            <div class="base-bar react-bar"></div>
+                         </div>
+
+                    </div>
+                    <div data-aos="fade-left" class="mySkill">
+                        <img src="./images/skill.jpeg" alt="">
+
+                    </div>
+
+
+
+                </div>
+
+            </section>
+            <!-- contact -->
+             <section id="contact">
+                <div class="section-head">
+                    <h1 class=" main-head">Contacts</h1>
+                    <span class=" sub-head">My contacts</span>
+                </div>
+                <div class="icon-collections">
+                    <!-- linkdin -->
+                    <div class="icon">
+                        <a target="_blank" href="https://www.linkedin.com/in/fathima-bishara-4022b9315/"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                    </div>
+                    <!-- github -->
+                    <div class="icon">
+                        <a target="_blank" href="https://www.linkedin.com/in/fathima-bishara-4022b9315/"><i class="fa-brands fa-github brands"></i></a>
+                    </div>
+                    <!-- twitter -->
+                    <div class="icon">
+                        <a target="_blank" href="https://www.linkedin.com/in/fathima-bishara-4022b9315/"><i class="fa-brands fa-twitter brands"></i></a>
+                    </div>
+                    <!-- facebook -->
+                    <div class="icon">
+                        <a target="_blank" href="https://www.linkedin.com/in/fathima-bishara-4022b9315/"><i class="fa-brands fa-facebook-f brands"></i></a>
+                    </div>
+                    <!-- instagram -->
+                    <div class="icon">
+                        <a target="_blank" href="https://www.linkedin.com/in/fathima-bishara-4022b9315/"><i class="fa-brands fa-instagram brands"></i></a>
+                    </div>
+                    <!-- email -->
+                    <div class="icon">
+                        <a target="_blank" href="https://www.linkedin.com/in/fathima-bishara-4022b9315/"><i class="fa-solid fa-envelope brands"></i></a>
+                    </div>
+                </div>
+             </section>
+            <!-- footer -->
+             <footer> 
+                <p id="copyright"> &copy; My Portfolie Website 2025, All Rights Reserved &reg; to Ana Steel</p>
+                <div class="icon up-arrow">
+                        <a  href="#container"><i class="fa-solid fa-angle-up"></i></a>
+                    </div>
+             </footer>
+             
+            
+    </div>
+    
+</body>
+<!-- aos cdn script -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+ </html>
